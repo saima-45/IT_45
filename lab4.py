@@ -1,0 +1,127 @@
+print("------------------slide 18 to 32-------------------")
+print("-----------------1D array slide 1----------------")
+import numpy as np
+a=np.array([5,8,12])
+print(a)
+print("-----------------1D array slide 2----------------")
+A=np.arange(5,14,2)
+print(A)
+print("-----------------1D array slide 3----------------")
+b=np.linspace(5,25,4)
+print(b)
+print("-----------------1D array slide 4----------------")
+B=np.arange(-5,0,1)
+print(B)
+print("-----------------2D array slide 1----------------")
+arr=np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
+print(arr)
+print("-----------------2D array slide 2----------------")
+shape=(3,4)
+ARR=np.zeros(shape)
+print(ARR)
+print("-----------------2D array slide 3----------------")
+Arr=np.ones(shape)
+print(Arr)
+print("-----------------2D array slide 4----------------")
+Shape=(3,6)
+ARr=np.empty(Shape)
+print(ARr)
+print("-----------------3D array slide 1----------------")
+nested_list=[[[1,2,3,4],[5,6,7,8],[9,10,11,12]],
+             [[13,14,15,16],[17,18,19,20],[21,22,23,24]]]
+ArR=np.array(nested_list)
+print(ArR)
+print("-----------------3D array slide 2----------------")
+SHAPE=(2,3,4)
+arra=np.zeros(SHAPE)
+print(arra)
+print("-----------------3D array slide 3----------------")
+array=np.ones(SHAPE)
+print(array)
+print("-----------------3D array slide 4----------------")
+SHape=(2,3,6)
+ARRAY=np.empty(SHape)
+print(ARRAY)
+print("------------------slide 7-------------------")
+Array=np.array([1,2,3,4])
+print(type(Array))
+matrix=np.array([[1,2],[3,4]])
+print(matrix)
+print("------------------slide 8-------------------")
+b=np.arange(0,10,2)
+print(b)
+c=np.linspace(0,1,5)
+print(c)
+zeros=np.zeros((2,3))
+ones=np.ones((3,2))
+print(zeros)
+print(ones)
+filled=np.full((2,2),7)
+print(filled)
+print("------------------slide 9-------------------")
+identify=np.eye(3)
+print(identify)
+empty_arr=np.empty((2,2))
+print(empty_arr)
+print(arr.shape)
+print(arr.dtype)
+print(arr.ndim)
+print("------------------slide 11-------------------")
+float_arr=np.array([1,2,3],dtype='float32')
+print(float_arr)
+print("------------------slide 14-------------------")
+array_1=np.array([1.7,2.8,3.2])
+new_arr=arr.astype('int32')
+print(new_arr)
+print(arr.dtype==np.float64)
+array_2=np.array([1,2.5,'3'])
+print(array_2)
+print("------------------slide 16-------------------")
+print(arr.shape)
+print(arr.size)
+print(arr.ndim)
+print("------------------slide 17-------------------")
+print(arr.itemsize)
+print(arr.dtype)
+print(arr.nbytes)
+print("------------------slide 34-------------------")
+d=np.random.rand(7)
+print(d)
+print("------------------slide 35-------------------")
+e=np.random.rand(2,4)
+print(e)
+print("------------------slide 36-------------------")
+f=np.random.rand(4,2,3)
+print(f)
+print("------------------slide 38-------------------")
+brr=np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])
+ShApe=(6,2)
+output=np.reshape(brr,ShApe)
+print(output)
+print("------------------slide 41-------------------")
+crr=np.arange(10,20)
+print(crr)
+print("------------------slide 42-------------------")
+drr=np.arange(10,50,5)
+print(drr)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
